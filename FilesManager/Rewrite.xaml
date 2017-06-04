@@ -1,0 +1,22 @@
+﻿<Window x:Class="FilesManager.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FilesManager"
+        mc:Ignorable="d"
+        Title="RewriteFile" Height="308.911" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="textBox1"  HorizontalAlignment="Left" Height="23" Margin="79,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" RenderTransformOrigin="-0.453,0.173"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="File Name" VerticalAlignment="Top" Margin="10,16,0,0"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,105,0,0" TextWrapping="Wrap" Text="File Data" VerticalAlignment="Top" RenderTransformOrigin="0.512,-0.815"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="116" Margin="79,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="10,44,0,0" TextWrapping="Wrap" Text="File Type" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="79,44,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="90"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="10,74,0,0" TextWrapping="Wrap" Text="File Path" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="79,74,0,0" Text ="C:\Users\Public\Documents\"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="190"/>
+        <Button x:Name="button" Content="Rewrite" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Margin="105,238,112,10"
+                Click ="btnReWriteDone_Click "/>
+
+    </Grid>
+</Window>
